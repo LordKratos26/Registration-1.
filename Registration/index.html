@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="emptyDiv">
+    </div>
+    <div id="description">
+    </div>
+    
+    <div id="container">
+      <div id="container_body">
+        <div>
+          <h2 class="form_title">
+     Registration </h2>
+    
+    </div>
+    
+        <div id="form_name">
+          <div class="firstnameorlastname">
+           <form name="form">
+           <div id="errorBox">
+    </div>
+    <input class="input_name" id="name" name="Name" placeholder="First Name" type="text" value="">
+            <input class="input_name" id="lname" name="LastName" placeholder="Last Name" type="text" value="">
+             
+          </form>
+    </div>
+    <div id="email_form">
+            <input class="input_email" id="femail" name="Email" placeholder="Your Email" type="text" value="">
+          </div>
+    <div id="Re_email_form">
+            <input class="input_Re_email" id="reemail" name="enterEmail" placeholder="Re-enter Email" type="text" value="">
+          </div>
+    <div id="password_form">
+            <input class="input_password" id="pass" name="Password" placeholder="New Password" type="password" value="">
+          </div>
+    
+          <div>
+            <h3 class="birthday_title">
+    Birthday</h3>
+    </div>
+    <div>
+            <select id="month" name="birthday_month">
+              <option selected="" value="">Month</option>
+              <option value="1">Jan</option>
+              <option value="2">Feb</option>
+              <option value="3">Mar</option>
+              <option value="4">Apr</option>
+              <option value="5">May</option>
+            </select>
+               
+            <select id="day" name="birthday_day">
+              <option selected="" value="">Day</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+               
+            <select id="year" name="birthday_year">
+              <option selected="" value="">Year</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+            </select>
+          </div>
+    
+          <div id="radio_button">
+            <input id="radio_button" name="radiobutton" type="radio" value="Female">
+            <label>Female</label>
+                
+            <input id="radio_button" name="radiobutton" type="radio" value="Male">
+            <label>Male</label>
+          </div>
+    <div>
+            <div id="sign_user" onclick="Submit()">
+    Sign Up </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
